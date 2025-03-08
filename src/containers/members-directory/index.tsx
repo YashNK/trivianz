@@ -4,13 +4,7 @@ import "./members-directory.scss";
 import { MemberCard } from "../../components/member-card";
 import { Members } from "./members";
 import { FilterOptions } from "../../model/member.model";
-import {
-  ClusterGroup,
-  ClusterGroupOptions,
-  ProfessionOptions,
-} from "../../constants";
-
-const { Option } = Select;
+import { ClusterGroupOptions, ProfessionOptions } from "../../constants";
 
 export const MemberDirectory: React.FunctionComponent = () => {
   const [filterOptions, setFilterOptions] = useState<FilterOptions>({

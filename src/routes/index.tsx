@@ -1,6 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Locations } from "../constants/locations";
-import { MainContainer } from "../containers/main-container";
 import { MemberDirectory } from "../containers/members-directory";
 import { LandingPageContent } from "../containers/landing-page-content";
 import FlipBook from "../containers/flip-book";
