@@ -1,0 +1,121 @@
+html {
+  height: 100%;
+  body {
+    height: 100%;
+    margin: 0;
+    font-size: 14px;
+    .font_18 {
+      font-size: 18px;
+    }
+    .font_24 {
+      font-size: 24px;
+    }
+    .font_60 {
+      font-size: 60px;
+    }
+    .font_weight_medium {
+      font-weight: 500;
+    }
+    .line_height_30 {
+      line-height: 30px;
+    }
+    .flex_1_1_10 {
+      flex: 1 1 10px;
+    }
+    .min_width_150 {
+      min-width: 150px;
+    }
+    .max_width_80_p {
+      max-width: 80%;
+    }
+    .max_width_200 {
+      max-width: 200px;
+    }
+    .ellipsis {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .primary_btn {
+      background-color: var(--black);
+      color: var(--white);
+      min-width: 150px;
+      padding: 10px 15px;
+      border-radius: 8px;
+      outline: none;
+      border: none;
+      transition: 0.2s;
+      &:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+      }
+    }
+    .secondary_btn {
+      background-color: transparent;
+      color: var(--white);
+      padding: 10px 15px;
+      border-radius: 8px;
+      outline: none;
+      border: 1px solid var(--white);
+      &:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+      }
+    }
+    .main_form_container {
+      > input {
+        min-width: 100px;
+        padding: 10px 25px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        border: 1px solid var(--inputBorder);
+      }
+      .ant-select {
+        color: var(--black);
+        .ant-select-selector {
+          .ant-select-selection-item {
+            line-height: 20px !important;
+          }
+        }
+        .ant-select-selector {
+          padding: 0px 15px 0px 15px !important;
+          border-radius: 6px;
+          border-color: var(--inputBorder) !important;
+          box-shadow: none !important;
+          min-height: 39px !important;
+          .ant-select-selection-placeholder {
+            color: var(--inputPlaceholder);
+          }
+          .ant-select-selection-placeholder {
+            padding-right: 25px;
+          }
+          .ant-select-selection-search {
+            margin-left: 0;
+            > input {
+              padding-left: 4px !important;
+            }
+          }
+        }
+        .ant-select-arrow {
+          right: 15px;
+          top: calc(50% + 5px);
+          .ant_select_drop_icon {
+            font-size: 22px;
+            color: var(--black);
+          }
+        }
+        .ant-select-clear {
+          height: 20px;
+          right: 14px;
+          top: calc(50% - 1px);
+          font-size: 18px;
+          width: 20px;
+          color: var(--black);
+          display: flex;
+          padding: 0 0;
+        }
+      }
+    }
+  }
+}

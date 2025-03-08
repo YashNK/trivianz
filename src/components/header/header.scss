@@ -1,0 +1,15 @@
+.landing_page_header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c98d56;
+  color: var(--black);
+  padding: 10px 25px;
+  z-index: 1;
+  .header_logo {
+    border: 1px solid var(--black);
+    padding: 5px;
+    border-radius: 50%;
+    max-width: 50px;
+  }
+}
